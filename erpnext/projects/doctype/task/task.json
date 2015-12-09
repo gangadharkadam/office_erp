@@ -63,7 +63,7 @@
    "label": "Project", 
    "oldfieldname": "project", 
    "oldfieldtype": "Link", 
-   "options": "Project", 
+   "options": "Project Name", 
    "permlevel": 0
   }, 
   {
@@ -218,7 +218,7 @@
  "icon": "icon-check", 
  "idx": 1, 
  "max_attachments": 5, 
- "modified": "2014-05-27 03:49:20.708319", 
+ "modified": "2015-04-13 05:06:48.703914", 
  "modified_by": "Administrator", 
  "module": "Projects", 
  "name": "Task", 

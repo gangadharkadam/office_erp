@@ -40,10 +40,10 @@ has_permission = {
 
 
 doc_events = {
-	"*": {
-		"on_update": "erpnext.home.update_feed",
-		"on_submit": "erpnext.home.update_feed"
-	},
+	#"*": {
+	#	"on_update": "erpnext.home.update_feed",
+	#	"on_submit": "erpnext.home.update_feed"
+	#},
 	"Comment": {
 		"on_update": "erpnext.home.make_comment_feed"
 	},

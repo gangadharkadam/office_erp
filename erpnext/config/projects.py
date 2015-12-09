@@ -16,6 +16,21 @@ def get_data():
 					"name": "Project",
 					"description": _("Project master."),
 				},
+                               {
+                                        "type": "doctype",
+                                        "name": "Sprint",
+                                        "description": _("Project Sprint master."),
+                                },
+                               {
+                                        "type": "doctype",
+                                        "name": "Release Report",
+                                        "description": _("Project Release Report."),
+                                },
+                              {
+                                        "type": "doctype",
+                                        "name": "Project Health Weekly Report",
+                                        "description": _("Project Health Weekly Report."),
+                                },
 				{
 					"type": "doctype",
 					"name": "Time Log",
@@ -33,6 +48,55 @@ def get_data():
 				},
 			]
 		},
+
+		{
+			"label": _("Requirement Tracking"),
+			"icon": "icon-eye-open",
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Business Requirements",
+					"description": _("Business Requirement description.")
+				},
+				{
+					"type": "doctype",
+					"name": "Functional Requirement",
+					"description": _("Functional Requirement description.")
+				},
+			]
+		},
+
+		{
+			"label": _("ChangeRequest and Support"),
+			"icon": "icon-resize-small",
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Wale",
+					"description": _("Non-Project based.")
+				},
+				{
+					"type": "doctype",
+					"name": "Vesta Si",
+					"description": _("Non-Project based.")
+				},
+				{
+					"type": "doctype",
+					"name": "HealthSnapp",
+					"description": _("Non-Project based.")
+				},
+				{
+					"type": "doctype",
+					"name": "Digitales",
+					"description": _("Non-Project based.")
+				},
+			]
+		},
+
+
+
+
+
 		{
 			"label": _("Tools"),
 			"icon": "icon-wrench",
